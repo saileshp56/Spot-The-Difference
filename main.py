@@ -40,7 +40,7 @@ while not flag: #loops until the x is clicked
                     b2 = 255 - b2 #negative of blue
                     window.set_at((x+divider, y), (r2, g2, b2)) #uses function set_at to place negative pixel over the pixel the r,g,b values were taken from
                 else:
-                    window.set_at((x+divider, y), choiceFunc(r2,g2,b2)) #uses function set_at to place negative pixel over the pixel the r,g,b values were taken from
+                    window.set_at((x+divider, y), choiceFunc(r2,g2,b2)) #uses function set_at to place the pixel given by choiceFunc
     pygame.display.update() #updates the screen after the nested-loop
         
            
