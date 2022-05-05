@@ -20,8 +20,6 @@ def choiceFunc(r,g,b):
 
 flag = False
 
-pos_1_0 = 0 #sets to 0 so that right clicking before left clicking at the start does not run an error
-pos_2_0 = 0 #sets to 0 so that right clicking before left clicking at the start does not run an error
 while not flag: #loops until the x is clicked
     for e in pygame.event.get(): #waits for a pygame event
         if e.type == pygame.QUIT: #if the 'X' button is clicked on the generated window
